@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://dev-minds-1.onrender.com";
 const DEFAULT_COOLDOWN = 10;
 
 const App = () => {
